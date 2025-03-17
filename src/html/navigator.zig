@@ -28,7 +28,7 @@ const checkCases = jsruntime.test_utils.checkCases;
 pub const Navigator = struct {
     pub const mem_guarantied = true;
 
-    agent: []const u8 = "Lightpanda/1.0",
+    agent: []const u8 = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
     version: []const u8 = "1.0",
     vendor: []const u8 = "",
     platform: []const u8 = std.fmt.comptimePrint("{any} {any}", .{ builtin.os.tag, builtin.cpu.arch }),

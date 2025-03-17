@@ -52,7 +52,7 @@ const polyfill = @import("../polyfill/polyfill.zig");
 
 const log = std.log.scoped(.browser);
 
-pub const user_agent = "Lightpanda/1.0";
+pub const user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36";
 
 // Browser is an instance of the browser.
 // You can create multiple browser instances.
